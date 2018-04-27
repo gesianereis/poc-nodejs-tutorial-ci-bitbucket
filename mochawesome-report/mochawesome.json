@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2018-04-27T18:02:59.118Z",
-    "end": "2018-04-27T18:02:59.179Z",
-    "duration": 61,
+    "start": "2018-04-27T18:49:41.186Z",
+    "end": "2018-04-27T18:49:41.243Z",
+    "duration": 57,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "472fc8ad-9217-4e02-adfa-297c4270dd6a",
+    "uuid": "a81efabc-56c2-4163-bd8a-b1b460f2c6e9",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,7 +28,7 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "7042cf46-7591-4a08-8ac9-89647a290ccf",
+        "uuid": "6f43d2b5-536a-406f-adfd-724da9fe9d11",
         "title": "GET /",
         "fullFile": "/Users/gesianereis/helloworld/test/test.js",
         "file": "/test/test.js",
@@ -48,14 +48,14 @@
             "code": "// The line below is the core test of our app.\nrequest(app).get('/')\n .expect('Hello World!')\n .then(() => done())\n .catch(err => done(err));",
             "err": {},
             "isRoot": false,
-            "uuid": "05703f6f-0271-40d8-a74a-1d1d048e7eb5",
+            "uuid": "388f174c-a690-4f9f-9911-4d939d80f1bb",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "05703f6f-0271-40d8-a74a-1d1d048e7eb5"
+          "388f174c-a690-4f9f-9911-4d939d80f1bb"
         ],
         "failures": [],
         "pending": [],
