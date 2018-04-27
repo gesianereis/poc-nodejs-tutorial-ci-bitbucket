@@ -12,4 +12,7 @@ pipelines:
           - node
         script: # Modify the commands below to build your repository.
           - npm install
-          - npm test
+        # - npm test
+          - npm install mocha
+          - npm install --save-dev mochawesome
+          - mocha ./test/test.js --reporter mochawesome

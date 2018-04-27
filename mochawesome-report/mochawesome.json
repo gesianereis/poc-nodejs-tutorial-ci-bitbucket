@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-04-27T18:02:59.118Z",
+    "end": "2018-04-27T18:02:59.179Z",
+    "duration": 61,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "472fc8ad-9217-4e02-adfa-297c4270dd6a",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "7042cf46-7591-4a08-8ac9-89647a290ccf",
+        "title": "GET /",
+        "fullFile": "/Users/gesianereis/helloworld/test/test.js",
+        "file": "/test/test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "displays \"Hello World!\"",
+            "fullTitle": "GET / displays \"Hello World!\"",
+            "timedOut": false,
+            "duration": 32,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "// The line below is the core test of our app.\nrequest(app).get('/')\n .expect('Hello World!')\n .then(() => done())\n .catch(err => done(err));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "05703f6f-0271-40d8-a74a-1d1d048e7eb5",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "05703f6f-0271-40d8-a74a-1d1d048e7eb5"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 32,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
