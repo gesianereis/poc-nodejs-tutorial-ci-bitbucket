@@ -1,0 +1,25 @@
+---
+
+# tasks file for docker
+
+- name: Instalação das dependências do Docker-Engine
+  apt:  name={{ item }} update_cache=yes state=present
+  with_items:
+    - apt-transport-https
+    - ca-certificates
+    - curl
+    - software-properties-common
+
+- name: Incluir o repositorio do Docker-Engine
+  apt_repository:
+  repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu 
+{{ ansible_distribution_release }} stable"
+  state: present
+
+- name: Inclusão da chave do repositorio do Docker-Engine
+  apt_key: url="https://download.docker.com/linux/ubuntu/gpg" state=present
+
+- name: Instalar o Docker-Engine
+  apt: name=docker-ce update_cache=yes state=present
+
+  
